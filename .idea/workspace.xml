@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: Member">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/database/TableCreator.java" afterDir="false" />
+    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="contruction:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotation/database/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/database/TableCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,21 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TableCreator">
+    <configuration name="TableCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotation.database.TableCreator" />
+      <module name="onjavaannotations" />
+      <option name="PROGRAM_PARAMETERS" value="org.example.annotation.database.Member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.annotation.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.annotation.UseCaseTracker" />
       <module name="onjavaannotations" />
@@ -63,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TableCreator" />
         <item itemvalue="Application.UseCaseTracker" />
       </list>
     </recent_temporary>
@@ -153,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677059168384</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="contruction:">
+      <created>1677146232740</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677146232740</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +201,7 @@
     <MESSAGE value="feat: SQLInteger" />
     <MESSAGE value="feat: Uniqueness" />
     <MESSAGE value="feat: Member" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Member" />
+    <MESSAGE value="contruction:" />
+    <option name="LAST_COMMIT_MESSAGE" value="contruction:" />
   </component>
 </project>

@@ -44,7 +44,7 @@ public class TableCreator {
                     else
                         columnName = sInt.name();
 
-                    columnDefs.add(columnName + "INT" ); // getConstraints()
+                    columnDefs.add(columnName + "INT" + getConstraints(sInt.constraints()) ); // getConstraints()
                 }
 
                 if(anns[0] instanceof SQLString) {
@@ -55,7 +55,7 @@ public class TableCreator {
                     else
                         columnName = sString.name();
 
-                    columnDefs.add(columnName + " VARCHAR("+ sString.value() + ")" ); // add getCOnstraint()
+                    columnDefs.add(columnName + " VARCHAR("+ sString.value() + ")" + getConstraints(sString.constraints()) ); // add getCOnstraint()
                 }
 
                 StringBuilder createCommand = new StringBuilder("CREATE TABLE " + tableName + "(");
@@ -69,5 +69,17 @@ public class TableCreator {
                 System.out.println("Table Creation SQL for " + className + " is:\n" + tableCreate);
             }
         }
+    }
+
+    private static String getConstraints(Constraints con) {
+        String constraints = "";
+        if(!con.allowNull())
+            constraints += " NOT_NULL";
+        if (con.primaryKey())
+            constraints += " PRIMARY_KEY";
+        if (con.unique())
+            constraints += " UNIQUE";
+
+        return constraints;
     }
 }
