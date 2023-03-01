@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: SimpleTest">
+    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: SimpleProcessor&#10;&#10;under construction.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotation/simplest/SimpleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/simplest/SimpleProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677491458482</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: SimpleProcessor&#10;&#10;under construction.">
+      <created>1677577969231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577969231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +247,7 @@
     <MESSAGE value="feat: TableCreator" />
     <MESSAGE value="feat: Simple" />
     <MESSAGE value="feat: SimpleTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SimpleTest" />
+    <MESSAGE value="feat: SimpleProcessor&#10;&#10;under construction." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: SimpleProcessor&#10;&#10;under construction." />
   </component>
 </project>
