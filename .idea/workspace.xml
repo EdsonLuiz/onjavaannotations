@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: SimpleProcessor&#10;&#10;under construction.">
+    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: SimpleProcessor&#10;&#10;finished.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/ifx/ExtractInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/ifx/Multiplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotation/simplest/SimpleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/simplest/SimpleProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +49,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SimpleTest">
+  <component name="RunManager" selected="Application.Multiplier">
+    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.annotation.ifx.Multiplier" />
+      <module name="onjavaannotations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.annotation.ifx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.annotation.simplest.SimpleTest" />
       <module name="onjavaannotations" />
@@ -90,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multiplier" />
         <item itemvalue="Application.SimpleTest" />
         <item itemvalue="Application.TableCreator" />
         <item itemvalue="Application.UseCaseTracker" />
@@ -217,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677577969231</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: SimpleProcessor&#10;&#10;finished.">
+      <created>1677664622128</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677664622128</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +271,7 @@
     <MESSAGE value="feat: Simple" />
     <MESSAGE value="feat: SimpleTest" />
     <MESSAGE value="feat: SimpleProcessor&#10;&#10;under construction." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SimpleProcessor&#10;&#10;under construction." />
+    <MESSAGE value="feat: SimpleProcessor&#10;&#10;finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: SimpleProcessor&#10;&#10;finished." />
   </component>
 </project>
