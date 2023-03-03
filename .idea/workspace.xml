@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: SimpleProcessor&#10;&#10;finished.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/ifx/ExtractInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/ifx/Multiplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c945ba10-1680-4e0e-ac2a-5fb231e8b764" name="Changes" comment="feat: Multiplier&#10;&#10;finished." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677664622128</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: ExtractInterface&#10;&#10;finished.">
+      <created>1677750820980</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677750820980</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: Multiplier&#10;&#10;finished.">
+      <created>1677750848892</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677750848892</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +282,8 @@
     <MESSAGE value="feat: SimpleTest" />
     <MESSAGE value="feat: SimpleProcessor&#10;&#10;under construction." />
     <MESSAGE value="feat: SimpleProcessor&#10;&#10;finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SimpleProcessor&#10;&#10;finished." />
+    <MESSAGE value="feat: ExtractInterface&#10;&#10;finished." />
+    <MESSAGE value="feat: Multiplier&#10;&#10;finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Multiplier&#10;&#10;finished." />
   </component>
 </project>
